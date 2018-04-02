@@ -1,0 +1,29 @@
+.feed-item{
+    height: 500px;
+    width: 500px;
+    border: 1px solid rgb(119, 136, 153, 0.3);
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.item-title{
+    font: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.item-name{
+    text-align: left; 
+    width:50%; 
+    display: inline-block;    
+}
+
+.item-views{
+    text-align: right; 
+    width:49%;  
+    display: inline-block;
+}
+
+.item-video{
+    margin-top: 10px;
+}

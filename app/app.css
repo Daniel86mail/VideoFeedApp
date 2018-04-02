@@ -1,0 +1,21 @@
+/* app css stylesheet */
+
+.feed{
+  height: 100vh;
+  overflow-y: hidden;
+}
+.title {
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(173, 216, 230, 0.5);
+  text-align: center;
+  color: lightslategrey;
+  font: bolder;
+}
+.item-list{
+  overflow-y: scroll;
+  height: 100%;
+  margin: auto;
+  width: 30%;
+}

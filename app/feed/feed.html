@@ -1,0 +1,10 @@
+<div class="feed">
+        <div class="title">VIDEO FEED</div>
+        Filter by source:
+        <input type="text" ng-model="selection">
+        <div class="item-list">
+            <div ng-repeat="item in items | filter: selection ">
+                <feed-item item="item"></feed-item>
+            </div>
+        </div>       
+</div>
